@@ -1,0 +1,82 @@
+body {
+  /* background-image: url("OIP.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#button5{
+  background-color: transparent;
+  color:black ;
+  border: transparent;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+}
+.bii:hover{
+  background-color: tomato;
+}
+.dropdown:hover .dropdown-content{
+  display: flex;
+  flex-direction: column;
+  min-width: 60px;
+  background-size: 50px;
+  position:fixed;
+  display: inline-table;
+  /* min-width: 50px;
+  size: 50px; */
+}
+.nick{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  position: initial;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dropdown-content1{
+    display: none;
+    position: absolute;
+}
+.dropdown1{
+  padding-left: 10px;
+}
+.qwe:hover .dropdown-content1{
+  flex-direction: column;
+  min-width: 60px;
+  background-size: 50px;
+  position: fixed;
+  display:inline-table;
+}
+.whole{
+  display: flex;
+  flex-direction: row;
+}
+.nick{
+  display: flex;
+  flex-direction: row;
+}
+ .div2{
+  position: fixed;
+  right: 0;
+  left: 950px;
+  top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.bii{
+  position: fixed;
+  left: 70px;
+  top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+.imghover{
+  display: none;
+  /* position: absolute; */
+}
+.imgages:hover .imghover{
+  display:flex;
+  flex-direction: column;
+}
+
